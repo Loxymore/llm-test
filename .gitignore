@@ -1,0 +1,21 @@
+# .gitignore for a Gradle project
+
+# Gradle files
+.gradle/
+build/
+
+# Ignore IntelliJ IDEA project files
+.idea/
+*.iml
+
+# Ignore Eclipse project files
+.project
+.classpath
+.settings/
+
+# Ignore models 
+/app/models/
+
+# Ignore llama log files
+llama.log
+/app/llama.log
